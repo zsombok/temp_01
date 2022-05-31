@@ -12,11 +12,11 @@ const createWindow = () => {
       nativeWindowOpen: true,
     },
     show: true,
-    // frame: false,
+    frame: false,
     kiosk: true,
     // resizable: false
   });
-  win.fullScreen = false;
+  win.fullScreen = true;
   win.loadFile("index.html");
 
   win.webContents.openDevTools({ mode: "right", activate: false });
