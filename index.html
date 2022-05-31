@@ -6,13 +6,68 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>Aranybulla</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <h1>Aranybulla</h1>
-  We are using Node.js <span id="node-version"></span>,
-  Chromium <span id="chrome-version"></span>,
-  and Electron <span id="electron-version"></span>.
+  <div id="main">
+    <nav>
+      <ul>
+        <li>
+          <div class="list-container">
+            <img src="src/img/drag.png" alt="drag symbol" class="icon">
+            <div>
+              <p>Az Aranybulla eredeti latin szövege</p>
+              <p>Húzd le és olvasd!</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="list-container">
+            <img src="src/img/drag.png" alt="drag symbol" class="icon">
+            <div>
+              <p>Az Aranybulla szövege magyarul</p>
+              <p>Húzd le és olvasd!</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="list-container">
+            <img src="src/img/drag.png" alt="drag symbol" class="icon">
+            <div>
+              <p>Az Aranybulla legfontosabb részei</p>
+              <p>Húzd le és olvasd!</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <div id="paper"></div>
+  </div>
+  <div id="questions">
+    <ul>
+      <li>
+        <div class="img tap"></div>
+        <p>Mi az az Aranybulla?</p>
+      </li>
+      <li>
+        <div class="tap"></div>
+        <p>Miért Aranybulla a neve?</p>
+      </li>
+      <li>
+        <div class="tap"></div>
+        <p>Miért olyan fontos ez az okirat?</p>
+      </li>
+      <li>
+        <div class="tap"></div>
+        <p>Hogyan szóltak bele a nemesek az ország ügyeibe?</p>
+      </li>
+      <li>
+        <div class="tap"></div>
+        <p>Miért fontos ez 800 évvel később?</p>
+      </li>
+    </ul>
+  </div>
 </body>
 
 </html>
